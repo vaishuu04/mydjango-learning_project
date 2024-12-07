@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+{% extends "tempapp/base.html" %}
+  {% block block_body%}
+
+    <h1>WELOCOME TO INDEX PAGE</h1>
+    <h2>This is an Index PAGE</h2>
+    {{ text |cut:'Hello' }}
+    {{ number | add:'20' }}
+    {% endblock %}
